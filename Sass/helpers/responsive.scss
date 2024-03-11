@@ -1,0 +1,166 @@
+@media screen and (max-width:676px) {
+    .container {
+        width: 100%;
+        padding: 0 15px;
+
+    }
+
+
+
+    .all-clients {
+        margin-top: 50px;
+
+        .whatsapp-icon {
+
+            right: 15px;
+            top: 65%;
+
+            img {
+                width: 50px ;
+            }
+        }
+
+        h2 {
+            font-size: 30px;
+        }
+
+        ul {
+
+            li {
+
+                .image {
+                    width: 200px;
+                    height: 200px;
+                }
+
+                h3 {
+                    font-size: 17px;
+                }
+
+                p {
+                    font-size: 12px;
+                }
+            }
+        }
+
+
+    }
+
+    .slider-top {
+        border-bottom: none;
+        text-align: center;
+
+        ul {
+            justify-content: center;
+        }
+    }
+
+    .main-box {
+        flex-direction: column;
+
+        .left-panel {
+            width: 100%;
+
+            .slider-img {
+                img {
+                    height: 100%;
+                }
+            }
+
+            .slider-bottom {
+                flex-direction: column;
+                align-items: start;
+
+                .book-office {
+                    margin-top: 20px;
+                }
+            }
+        }
+
+        .right-panel {
+            margin-top: 50px;
+            width: 100%;
+
+            .form {
+                h2 {
+                    font-size: 25px;
+                    padding-bottom: 10px;
+                }
+
+                ul {
+                    li {
+                        &:last-child {
+                            input {
+                                width: 10%;
+                                margin-right: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+
+
+    }
+
+    .suggestions {
+        ul {
+            flex-direction: column;
+
+            li {
+                width: 100%;
+            }
+        }
+    }
+
+    .footer-background {
+        margin-top: 50px;
+        padding: 50px 10px;
+
+        .footer-text {
+            flex-direction: column;
+
+            .first-panel {
+                width: 100%;
+
+                ul {
+                    width: 80%;
+                }
+
+                p {
+                    padding-bottom: 20px;
+                }
+
+                .footer-logo {
+                    width: 50%;
+
+                    a {
+                        img {
+                            height: 100%;
+                        }
+                    }
+                }
+            }
+
+            .second-panel {
+                width: 100%;
+                margin-top: 50px;
+            }
+
+            .third-panel {
+                width: 100%;
+                margin-top: 20px;
+            }
+
+            .fourth-panel {
+                width: 100%;
+                margin-top: 50px;
+            }
+        }
+    }
+
+
+
+
+}
